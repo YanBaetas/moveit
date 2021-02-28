@@ -28,12 +28,16 @@
   opacity: 0.7;
 }
 
+.notificationContainer p {
+  color: var(--button-text);
+}
+
 .notificationContainer p:first-child::after {
   content: "";
   display: block;
   width: 100%;
   height: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--button-text);
 }
 
 @keyframes fadeIn {
