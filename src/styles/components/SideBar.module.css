@@ -1,0 +1,76 @@
+.sideBar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 7rem;
+  height: 100vh;
+  background: var(--white);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container header {
+  padding: 2rem;
+}
+
+.container main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto 0;
+}
+
+.container main button {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  width: 7rem;
+  background: transparent;
+  border: none;
+  font-size: 0;
+}
+
+.container main button.active::before,
+.container main button:hover::before {
+  content: "";
+  border: 2px solid var(--blue);
+  border-radius: 0 5px 5px 0;
+  position: absolute;
+  left: 0;
+  height: 3.25rem;
+  transform: translateY(-20%);
+}
+
+.container main button img.active {
+  filter: invert(53%) sepia(59%) saturate(5816%) hue-rotate(220deg)
+    brightness(91%) contrast(93%);
+}
+
+.container main button:hover img {
+  filter: invert(53%) sepia(59%) saturate(5816%) hue-rotate(220deg)
+    brightness(91%) contrast(93%);
+}
+
+.toggleTheme {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 3rem;
+  height: 2rem;
+  background: var(--white);
+  border: 1px solid var(--title);
+  border-radius: 34px;
+  transition: 0.4s;
+  outline: none;
+}
+
+.container footer button img {
+  margin-top: 2px;
+  width: 2rem;
+  height: 1.5rem;
+}
