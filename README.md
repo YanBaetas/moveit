@@ -5,6 +5,11 @@ Aplicação desenvolvida como parte da Next Level Week #4 da Rocketseat - Trilha
 Aplicação desenvolvida com base na técnica de estudo Pomodoro para melhor produtividade no trabalho e estudo.
 A cada ciclo de 25 minutos um desafio é oferecido, caso o desafio seja concluído, você ganha uma certa quantidade de experiência.
 
+<p align="center">
+  <img src="/images/tela-aplicacao.jpg" alt="Tela principal da Aplicação" width="800" />
+</p>
+
+
 ## Tecnologias :computer:
 ![Badge](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Badge](https://img.shields.io/badge/TypeScript-%233178C6?style=for-the-badge&logo=TypeScript&logoColor=white)
@@ -19,7 +24,7 @@ A cada ciclo de 25 minutos um desafio é oferecido, caso o desafio seja concluí
 
 ## Como usar
 ### Pré-Requisitos
-Tenha instalado o <a href="https://git-scm.com/">Git</a> e <a href="https://nodejs.org">Node.js</a>
+Tenha instalado o <a href="https://git-scm.com/">Git</a> e <a href="https://nodejs.org">Node.js</a>, além de um bom editor de texto como o <a href="https://code.visualstudio.com/">VSCode</a>
 
 ```bash
 # Clone este repositório
